@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+var scale=1/window.devicePixelRatio;
+
+
+		document.write("<meta name='viewport' content='width=device-width,user-scalable=no,initial-scale="+scale+",minimum-scale="+scale+",maximum-scale="+scale+"' />");
+
+
+	function reset(){
+
+
+
+			var scale=1/window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale='+scale+', maximum-scale='+scale+', minimum-scale='+scale+'" />');
+			var fontSize=document.documentElement.clientWidth/16;
+			var oHtml=document.getElementsByTagName('html')[0];
+			oHtml.style.fontSize=fontSize+'px';
+
+		}
+
+
+		reset();
+	</script>
+	<style media="screen" type="text/css">
+		html{height:100%;overflow: hidden;}
+		body{margin: 0;font-size: 1.2rem;color: white;height: 100%;overflow: auto;}
+		header{width: 100%;background: black;position: absolute;left: 0;top: 0;}
+		section{width: 100%;height:100rem;margin:1.25rem 0;color: black;}
+		footer{width: 100%;background-color:#ffffff;position: absolute;bottom: 0;left:0;}
+		body,button,html,header,footer,section,span,p,h1,h2,h3,h4,h5,ul,ol,li,select,input,button,textarea,aside,article,img{
+	                margin: 0;
+		            padding: 0;
+		            list-style: none;
+		 }
+		 a { text-decoration: none; }
+           a:focus { outline:none; }
+	     .cl:after{
+	     	content:"";
+	     	display: block;
+	     	clear: both;
+	     }
+	     
+	     section{
+	     	background-color: #f6f7f8;
+	     } 
+	     section img{
+	     	margin-top: 9.9rem;
+	     	margin-left: 7.05rem;
+	     	
+	     }
+	     footer img{
+	     	margin-left: 0.475rem;
+	     	float: left;
+	     	width:0.85rem ;
+	     	height: 0.75rem;
+	     }
+	     footer span{
+	     	width:4rem;
+	     	height:0.75rem ;
+	     	margin-left: 0.5rem;
+	     	font-size: 0.575rem;
+	     	color: #a4a4a4;
+	        float: left;
+	     }
+	     footer strong{
+	     	font-size: 0.625rem;
+	     	color: black;
+	     	float: left;
+	     }
+	     footer dd{
+	     	width: 5.52rem;
+	     	height: 2.1rem;
+	     	background-color: #e95471;
+	     	color: white;
+	     	font-size: 0.75rem;
+	     	display: block;
+	     	float: left;
+	     	position: absolute;
+	     	left: 13.25rem;
+	     }
+	     
+	     </style>
+	</head>
+	<body>
+		<header>
+		<a href="shop.html">	<img src="img/三级/a.jpg"> </a>
+		</header>
+		<section>
+			<img src="img/三级/gowuchekong.jpg" />
+			
+			</section>
+			<footer class="cl">
+				<img src="img/三级/ssdsds.jpg" />
+				<span>全选 合计 ：</span>
+				<strong>￥0.00</strong>
+			<a href=""><dd>去结算</dd></a>	
+			</footer>
+	</body>
+</html>
